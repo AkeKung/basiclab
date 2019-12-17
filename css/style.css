@@ -1,0 +1,27 @@
+body{
+    background-color: lightblue;
+} 
+
+p{
+    font-family: arial;
+    color: rgb(253, 236, 0);
+   
+}
+
+#Dio{
+    font-family: arial;
+    color:lime; 
+    font-size: 64px;
+}
+
+#JOJO{
+    color:crimson;
+}
+
+.c1{
+    font-family: arial;
+}
+
+.c2{
+    color:rebeccapurple;
+}
