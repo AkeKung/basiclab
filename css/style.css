@@ -154,6 +154,7 @@ body2 {
     min-height: 100vh;
     justify-content: center;
     align-content: center;
+    text-align: center;
 }
 
 button { 
