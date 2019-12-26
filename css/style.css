@@ -146,15 +146,7 @@ body {
   justify-content: center;
   align-content: center;
   text-align: center;
-}
-body2 {
-    color: #fff;
-    background: #17181c;
-    font: 300 1em 'Fira Sans', sans-serif;
-    min-height: 100vh;
-    justify-content: center;
-    align-content: center;
-    text-align: center;
+  display: fixed;
 }
 
 button { 
@@ -164,4 +156,5 @@ button {
   line-height: 1;
   margin: 0.5em;
   padding: 1em 2em;
+  page-break-inside: avoid;
 }
