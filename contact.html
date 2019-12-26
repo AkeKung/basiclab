@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link type="text/css" rel="stylesheet" href="css/style.css"/>
+    <title>Contact</title>
+</head>
+<body>
+    <div class="buttons">
+        <table width="70%" align="center">
+            <tr>
+                <td><button class="fill" onclick="location.href='index.html'">Home</button></td>
+                <td><button class="raise" onclick="location.href='gallery.html'">Gallery</button></td>
+                <td><button class="pulse" onclick="location.href='contact.html'">Contact</button></td>
+            <tr>
+        </table>
+    </div>
+    <div id="page-wrap">
+    
+        <img src="images/me.jpg" alt="Weerachai" id="pic" />
+    
+        <div id="contact-info" class="vcard">
+        
+            <h1 class="fn">Weerachai Sarakun</h1>
+            <p>
+                Cell: <span class="tel">(+66) - 877-353085</span><br />
+                Email: <a class="email" href="mailto:kingake555@gmail.com">kingake555@gmail.com</a>
+            </p>
+        </div>
+                
+        <div id="objective">
+            <p>
+                Hello! I am Weerachai Sarakun. Web Developer, Graphic Designer, Photographer and Programer.
+            </p>
+        </div>
+
+        <div class="clear"></div>
+        <div class="container">
+            <form action="#">
+            </br>
+            <table width="100%"><tr>
+            <td><label for="name">Name</label></td>
+            <td><input type="text" id="name" name="name" placeholder="Your name.."></td>
+            </tr>  
+            <tr>
+                <td><label for="gender">Gender</label></td>
+                <td>
+                    <select id="gender" name="gender">
+                    <option value="Unspecified">Unspecified</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    </select>
+              </td>
+            </tr>  
+            <tr>
+                <td><label for="mail">Mail</label></td>
+                <td><input type="text" id="mail" name="mail" placeholder="Your mail.."></td>
+            </tr>
+            <tr>
+                <td><label for="phone:">phone</label></td>
+                <td><input type="text" id="phone" name="massage" placeholder="Your phone.."></td>
+            </tr>
+            <tr>
+                <td><label for="subject">Subject</label></td>
+                <td><textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea></td>
+            </tr>
+            </table>
+            <input type="submit" value="Submit">
+            </form>
+          </div>
+</body>
+</html>
